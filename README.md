@@ -42,7 +42,11 @@ Choose the gesture that feels most natural to you:
 - Webcam access
 - Good lighting for optimal hand tracking
 
-### Installation
+### Run Air Canvas
+
+Air Canvas is hosted via GitHub Pages and has no other dependencies beyond a compatible web browser and web camera. To run Air Canvas, simply vist the following link:  [AirCanvas](https://robert-mcdermott.github.io/aircanvas/)
+
+### Installation (not required; just use the link above)
 
 1. **Clone the repository**
    ```bash
