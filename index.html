@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="video-container">
+            <video id="video" autoplay muted playsinline></video>
+            <canvas id="drawing-canvas"></canvas>
+        </div>
+        
+        <div id="toolbox" class="toolbox">
+            <div id="toolbox-toggle" class="toolbox-toggle">🎨</div>
+            <div id="toolbox-content" class="toolbox-content">
+                <div class="tool-section">
+                    <h3>Brush Size</h3>
+                    <div class="brush-sizes">
+                        <div class="brush-size" data-size="2"></div>
+                        <div class="brush-size active" data-size="5"></div>
+                        <div class="brush-size" data-size="10"></div>
+                        <div class="brush-size" data-size="20"></div>
+                    </div>
+                </div>
+                
+                <div class="tool-section">
+                    <h3>Colors</h3>
+                    <div class="color-palette">
+                        <div class="color active" data-color="#000000" style="background: #000000;"></div>
+                        <div class="color" data-color="#ff0000" style="background: #ff0000;"></div>
+                        <div class="color" data-color="#00ff00" style="background: #00ff00;"></div>
+                        <div class="color" data-color="#0000ff" style="background: #0000ff;"></div>
+                        <div class="color" data-color="#ffff00" style="background: #ffff00;"></div>
+                        <div class="color" data-color="#ff00ff" style="background: #ff00ff;"></div>
+                        <div class="color" data-color="#00ffff" style="background: #00ffff;"></div>
+                        <div class="color" data-color="#ffffff" style="background: #ffffff;"></div>
+                    </div>
+                </div>
+                
+                <div class="tool-section">
+                    <h3>Shapes</h3>
+                    <div class="shapes">
+                        <div class="shape" data-shape="square">⬜</div>
+                        <div class="shape" data-shape="rectangle">▭</div>
+                        <div class="shape" data-shape="circle">⚪</div>
+                        <div class="shape" data-shape="ellipse">🥚</div>
+                        <div class="shape" data-shape="triangle">🔺</div>
+                        <div class="shape" data-shape="line">📏</div>
+                    </div>
+                    <div class="fill-toggle">
+                        <button id="fill-toggle" class="toggle-btn active" data-mode="fill">🎨 Fill</button>
+                    </div>
+                </div>
+                
+                <div class="tool-section">
+                    <h3>Tools</h3>
+                    <div class="tools">
+                        <button id="brush-tool" class="tool active">🖌️ Brush</button>
+                        <button id="eraser-tool" class="tool">🧹 Eraser</button>
+                        <button id="clear-tool" class="tool">🗑️ Clear</button>
+                    </div>
+                </div>
+                
+                <div class="tool-section">
+                    <h3>Controls</h3>
+                    <div class="toggle-row">
+                        <button id="drawing-toggle" class="toggle-btn-compact active" data-enabled="true">✏️ ON</button>
+                        <button id="two-hand-toggle" class="toggle-btn-compact active" data-enabled="true">🤝 ON</button>
+                    </div>
+                </div>
+                
+                <div class="tool-section">
+                    <h3>Gesture Mode</h3>
+                    <div class="gesture-modes">
+                        <button class="gesture-mode active" data-mode="point-up">👆 Point Up</button>
+                        <button class="gesture-mode" data-mode="fist-index">✊ Fist+Index</button>
+                        <button class="gesture-mode" data-mode="pinch">🤏 Pinch</button>
+                        <button class="gesture-mode" data-mode="peace">✌️ Peace Sign</button>
+                        <button class="gesture-mode" data-mode="dwell">⏱️ Dwell</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "name": "aircanvas",
+  "version": "1.0.0",
+  "description": "A web-based drawing application controlled entirely by hand gestures and finger tracking",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "live-server --port=8000 --open=/",
+    "test": "echo 'No tests configured yet' && exit 0"
+  },
+  "keywords": [
+    "hand-tracking",
+    "gesture-control",
+    "drawing",
+    "presentation",
+    "mediapipe",
+    "canvas",
+    "computer-vision",
+    "interactive",
+    "web-app",
+    "finger-tracking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robert-mcdermott/aircanvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robert-mcdermott/aircanvas/issues"
+  },
+  "homepage": "https://github.com/robert-mcdermott/aircanvas#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 88",
+    "Firefox >= 90",
+    "Safari >= 14",
+    "Edge >= 88"
+  ]
+}
