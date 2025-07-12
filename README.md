@@ -1,6 +1,6 @@
 # AirCanvas 🎨✋
 
-**A web-based drawing application controlled entirely by hand gestures and finger tracking.**
+**A web-based drawing application for use in live video streams, controlled entirely by hand gestures and finger tracking.**
 
 ![AirCanvas-Screenshot](docs/images/aircanvas-screenshot.png)
 
