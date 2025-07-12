@@ -14,7 +14,7 @@ For video presentations, online meetings, and interactive demonstrations where y
 - **Two-hand control** for precision drawing control
 - **Smart hand recognition** with automatic dominant hand detection
 
-### 🎨 Professional Drawing Tools
+### 🎨 Drawing Tools
 - **Brush sizes**: 4 different sizes for various drawing needs
 - **Color palette**: 8 essential colors for clear annotations
 - **Shape tools**: Square, rectangle, circle, ellipse, triangle, and line
