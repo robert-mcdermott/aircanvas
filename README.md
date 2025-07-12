@@ -2,6 +2,8 @@
 
 **A web-based drawing application controlled entirely by hand gestures and finger tracking.**
 
+![AirCanvas-Screenshot](docs/images/aircanvas-screenshot.png)
+
 For video presentations, online meetings, and interactive demonstrations where you want to draw and annotate while being visible on camera.
 
 ## ✨ Features
