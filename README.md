@@ -95,6 +95,8 @@ Air Canvas is hosted via GitHub Pages and has no other dependencies beyond a com
 - **Point and hold** on toolbox items for 1 second to select
 - **Blue glow** shows when you're near a control
 
+📖 **More Detailed Useage Guide**: [USAGE.md](docs/USAGE.md)
+
 ## 🎯 Use Cases
 
 ### 📹 Video Presentations
@@ -119,12 +121,6 @@ Air Canvas is hosted via GitHub Pages and has no other dependencies beyond a com
 - **MediaPipe Hands** - Google's AI hand tracking
 - **HTML5 Canvas** - High-performance drawing
 - **CSS3** - Modern, responsive design
-
-### Browser Support
-- ✅ Chrome 88+
-- ✅ Firefox 90+
-- ✅ Safari 14+
-- ✅ Edge 88+
 
 ### Performance
 - **Lightweight**: ~100KB total size
